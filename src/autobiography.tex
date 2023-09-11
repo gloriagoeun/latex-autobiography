@@ -1,0 +1,52 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{float}
+
+\title{My first document}
+\date{2023-09-10}
+\author{Gloria Lee}
+
+\begin{document}
+  \pagenumbering{gobble}
+  \maketitle
+  \newpage
+  \pagenumbering{arabic}
+  
+  Hello World!
+
+  \begin{abstract}
+    This is a simple paragraph at the beginning of the 
+    document. A brief introduction about the main subject.
+  \end{abstract}
+
+  \section{Section}
+  Hello World!
+  \subsection{Subsection}
+  Structuring a document is easy!
+  \subsubsection{Subsubsection}
+  More text.
+  \paragraph{Paragraph}
+  Some more text.
+  \subparagraph{Subparagraph}
+  Even more text.
+
+  
+  \begin{figure}[hbt!]
+    \begin{centering}
+    \includegraphics[width=1.5in]{gloriagoeun-01.png}
+    \caption{A boat.}
+    \label{fig:boat1}
+    \end{centering}
+  \end{figure}
+  Figure \ref{fig:boat1} shows a boat.
+  
+  \section{Section}
+  Things about me :)
+    \begin{itemize}
+      \item One
+      \item Two
+      \item Three
+    \end{itemize}
+
+\end{document}
